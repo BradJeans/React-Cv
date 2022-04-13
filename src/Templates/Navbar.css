@@ -1,0 +1,11 @@
+.Main-Header{
+    background-color: black;
+    padding: 30px;
+}
+.HomeRedirect{
+    color: rgb(253, 253, 253);
+    margin-left: 5%;
+    margin-top: 15%;
+    text-decoration: none;
+    font-size: 30px;
+}

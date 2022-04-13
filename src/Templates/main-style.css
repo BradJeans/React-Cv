@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),
+    rgba(0,0,0.75)),url(../Images/Backround.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.Grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr; grid-gap: 10px;
+    grid-template-areas:
+                         "AboutMe AboutMe"
+                         "Skills Skills"
+                         "Languages Languages"
+                         "Education Education"
+                         "Employment Employment"
+                         "Qualifications Qualifications"
+                         "Intrests Intrests"
+                         "Contact Contact";
+            
+}
+.Aboutme{
+    grid-area: AboutMe;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 5% 0 0 0;
+    text-transform: capitalize;
+    cursor: crosshair;
+}
+.Aboutme-infomation{
+    font-size: 15px;
+}
+.employment{
+    grid-area: Employment;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 5% 0 0 0;
+    text-transform: capitalize;
+    cursor: crosshair;
+}
+.employment-infomation{
+    font-size: 15px;
+}
+.Skills{
+    grid-area: Skills;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 5% 0 0 0;
+    text-transform: capitalize;
+    cursor: crosshair;
+}
+.Skills-Infomation{
+    font-size: 15px; 
+    list-style-position:inside;
+}
+.Languages{
+    grid-area: Languages;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 5% 0 0 0;
+    text-transform: capitalize;
+    cursor: crosshair;
+}
+.Languages-Infomation{
+    font-size: 15px;
+}
+
+.Education{
+    grid-area: Education;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 5% 0 0 0;
+    text-transform: capitalize;
+    cursor: crosshair;
+}
+.Education-Infomation{
+    font-size: 15px; 
+}
+.Qualifications{
+    grid-area: Qualifications;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 5% 0 0 0;
+    text-transform: capitalize;
+    cursor: crosshair;
+}
+.Qualifications-Infomation{
+    font-size: 15px;
+}
+.Intrests{
+    grid-area: Intrests;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 5% 0 0 0;
+    text-transform: capitalize;
+    cursor: crosshair;
+}
+.Intrests-Infomation{
+    font-size: 15px;
+}
+.Contact{
+    grid-area: Contact;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 5% 0 0 0;
+    text-transform: capitalize;
+    cursor: crosshair;
+}
+.Contact-Infomation{
+    font-size: 15px;
+    color: white;
+}
+.EmailMe{
+    color: white;
+
+}
+.CallMe{
+    color: white;
+}
